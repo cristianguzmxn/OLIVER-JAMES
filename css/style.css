@@ -1,0 +1,231 @@
+
+/*GENERAL*/
+@import url('bootstrap.min.css');
+
+
+
+.bg1{
+    background: url(https://scontent-mia3-2.xx.fbcdn.net/v/t34.0-12/26176646_1577755348927258_2051262665_n.jpg?oh=9502f26d645de0e549404ea39e4c4f73&oe=5A521006) 
+    no-repeat center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover
+    -o-background-size: cover;
+    background-size: cover;
+    margin-top: 0%; 
+
+}
+
+.navbar-brand-centered {
+        position: absolute;
+     
+        display:inline;
+       
+        text-align: center;
+   
+    }
+    .navbar>.container .navbar-brand-centered, 
+    
+.navstyle{
+
+    background-color: transparent;
+    
+    border-style: none !important;
+    font-size: 90%;
+    margin-top: 1.5%;
+    margin-left: 30%;
+}
+.navbar-toggle{
+	border-style: none !important;
+	position: relative;
+	margin-left: 30%;
+
+
+}
+.navbar-right{
+	display: inline-block;
+	font-family: 'Roboto Slab', serif;
+    font-weight: normal;
+}
+.hamburguer{
+	margin-left: 75.5%;
+}
+.navbar-collapse{
+
+text-align: center;
+background-color: `transparent;
+
+}
+
+.logo{
+	width: 70%;
+	
+	align-items: center;
+	padding-top: 7%;
+}
+.statement{
+	width: 70%;
+	padding-top: 3%;
+	color: gray;
+	font-family: 'Montserrat', sans-serif;
+	text-align: left;
+	font-size: 80%;
+}
+
+.readmore{
+
+font-family: 'Roboto Slab', serif;
+border: none;
+background-color:transparent;
+color: #ADADAD;
+font-size: 85%;
+font-weight: bold;
+margin-left: 22%;
+  
+}
+
+
+}
+.center-block {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.readmore:hover {
+color: white;
+text-decoration: underline;
+font-weight:normal;}
+
+.readmore:active {
+transform: translateY(4px);
+ 
+}
+
+.close{
+	margin-left: 90%;
+}
+.modal-dialog{
+
+	margin-top: 10%;
+	text-align: justify;
+	background-color: black !important;
+	
+	border: none;
+
+}
+
+.modal-body{
+	width: 85%;
+}
+
+
+.divmusic{
+	width: 100%;
+height: 844px;
+background-color: black;
+
+position: relative;
+margin-top: 608px;
+}
+.row{
+	width: 100%;
+}
+
+
+.container1 {
+  max-width: 1000px;
+  margin: 5% auto;
+  padding: 20px;
+ 
+
+  overflow: hidden;
+  box-sizing: border-box;
+  
+}
+
+.text-center {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.lightbox-gallery {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.lightbox-gallery div > img {
+  max-width: 130%;
+  display: block;
+
+}
+
+.lightbox-gallery div {
+  margin: 50px;
+text-align: center;
+margin-top: 0px;
+
+  flex-basis: 180px;
+}
+
+@media only screen and (max-width: 50px) {
+  .lightbox-gallery {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .lightbox > div {
+    margin-bottom: 10px;
+
+  }
+}
+
+
+/*Lighbox CSS*/
+
+.lightbox {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: fixed;
+  top: 0;
+  left:0;
+ 
+  z-index: 20;
+  padding-top: 30px;
+  box-sizing: border-box;
+
+}
+
+.lightbox img {
+  display: block;
+  margin: auto;
+  width:500px;
+  
+  left: 450px;
+  top: 50px;
+}
+
+.lightbox .caption {
+  margin: 15px auto;
+  width: 50%;
+  text-align: center;
+  font-size: 1em;
+  line-height: 1.5;
+  font-weight: 700;
+  color: #eee;
+}
+
+.name-artist{     padding-top: 6px;
+	
+}
+.divemployers{
+	height: 644px;
+	background-color: black;
+	position: relative;
+	opacity: 0.92;
+
+}
